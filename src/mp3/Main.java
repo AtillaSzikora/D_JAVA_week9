@@ -8,7 +8,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		File file = new File("D:/");
+		File file = new File("c:\\");
 		String extension = "mp3";
 		try
 		{

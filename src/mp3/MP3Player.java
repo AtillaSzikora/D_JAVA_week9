@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 public class MP3Player extends Application
 {
-	private static final String MEDIA_URL = "file:///d:/drumroll.wav";
+	private static final String MEDIA_URL = "file:///c:/mp3/deep_purple.mp3";
 	private MediaPlayer mediaPlayer; // IT HAS TO BE A MEMBER VARIABLE, BECAUSE
 										// GC CLEANS AFTER A FEW SECONDS IF IT
 										// IS DECLARED IN start() METHOD !!!

@@ -144,11 +144,11 @@ public class ID3Tag
 
 	public static void main(String[] args)
 	{
-		ID3Tag tag1 = ID3Tag.parse(new File("d:" + File.separator + "mp3" + File.separator + "nightwish.mp3"));
-		ID3Tag tag2 = ID3Tag.parse(new File("d:" + File.separator + "mp3" + File.separator + "nightwish.mp3"));
-		ID3Tag tag3 = ID3Tag.parse(new File("d:" + File.separator + "mp3" + File.separator + "nightwish.mp3"));
-		ID3Tag tag4 = ID3Tag.parse(new File("d:" + File.separator + "mp3" + File.separator + "nightwish.mp3"));
-		ID3Tag tag5 = ID3Tag.parse(new File("d:" + File.separator + "mp3" + File.separator + "nightwish.mp3"));
+		ID3Tag tag1 = ID3Tag.parse(new File("c:" + File.separator + "mp3" + File.separator + "deep_purple.mp3"));
+		ID3Tag tag2 = ID3Tag.parse(new File("c:" + File.separator + "mp3" + File.separator + "deep_purple.mp3"));
+		ID3Tag tag3 = ID3Tag.parse(new File("c:" + File.separator + "mp3" + File.separator + "deep_purple.mp3"));
+		ID3Tag tag4 = ID3Tag.parse(new File("c:" + File.separator + "mp3" + File.separator + "deep_purple.mp3"));
+		ID3Tag tag5 = ID3Tag.parse(new File("c:" + File.separator + "mp3" + File.separator + "deep_purple.mp3"));
 		List<ID3Tag> tags = new ArrayList<ID3Tag>();
 		tags.add(tag1);
 		tags.add(tag2);
